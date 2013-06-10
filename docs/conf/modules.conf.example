@@ -1586,8 +1586,8 @@
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
 # SETNAME module: Adds the /SETNAME command
-# This module is oper-only.
-# To use, SETNAME must be in one of your oper class blocks.
+# Unlike the other /SET* commands, this module is NOT oper-only.
+# Once the module is loaded any user can use /SETNAME.
 #<module name="m_setname.so">
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
