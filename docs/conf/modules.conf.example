@@ -250,13 +250,13 @@
 #                                                                     #
 #-#-#-#-#-#-#-#-#-#-#-  BLOCKCAPS CONFIGURATION  -#-#-#-#-#-#-#-#-#-#-#
 #                                                                     #
-# percent        - How many percent of text must be caps before text  #
-#                  will be blocked.                                   #
+# percent        - What percentage of the message must be caps before #
+#                  the message will be blocked.                       #
 #                                                                     #
-# minlen         - The minimum length a line must be for the block    #
-#                  percent to have any effect.                        #
+# minlen         - The minimum length of a line (measured in chars)   #
+#                  for the message to be considered for blocking.     #
 #                                                                     #
-# capsmap        - A list of chars to be considered CAPS, this was    #
+# capsmap        - A list of chars to be considered CAPS, this is so  #
 #                  you can add CAPS for your language. Also you can   #
 #                  add things like ! and space to further lock down   #
 #                  on caps usage.                                     #
