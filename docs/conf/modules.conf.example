@@ -1680,7 +1680,8 @@
 # your configuration file!                                            #
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
-# Strip color module: Adds the channel mode +S
+# Strip color module: Adds the channel mode +S, the usermode +S
+# and the extban S. All strip color from incoming messages.
 #<module name="m_stripcolor.so">
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
